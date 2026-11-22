@@ -8,7 +8,7 @@
       "properties": {
         "id": {
           "type": "numeric",
-          "required": true,
+          "required": false,
           "title": "ID"
         },
         "name": {
@@ -23,17 +23,17 @@
         },
         "category": {
           "type": "object",
-          "required": true,
+          "required": false,
           "title": "Category",
           "properties": {
             "id": {
               "type": "numeric",
-              "required": true,
+              "required": false,
               "title": "Category ID"
             },
             "name": {
               "type": "string",
-              "required": true,
+              "required": false,
               "title": "Category Name"
             }
           }
